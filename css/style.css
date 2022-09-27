@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.top-header {
+    background-image: url(../assets/images/bg1.jpg);
+    background-repeat: repeat-x;
+    opacity: 0.8;
+    padding: 1em;
+    color: white;
+}
+
+.skills li {
+    animation: fadeIn 0.5s linear;
+    animation-fill-mode: both;
+}
+.skills li:nth-child(1) {
+    animation-delay: 0.25s;
+}
+.skills li:nth-child(2) {
+    animation-delay: 0.5s;
+}
+.skills li:nth-child(3) {
+    animation-delay: 0.75s;
+}
+.skills li:nth-child(4) {
+    animation-delay: 1s;
+}
+.skills li:nth-child(5) {
+    animation-delay: 1.25s;
+}
+.skills li:nth-child(6) {
+    animation-delay: 1.5s;
+}
+.skills li:nth-child(7) {
+    animation-delay: 1.75s;
+}
+.skills li:nth-child(8) {
+    animation-delay: 2s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        top: 100px;
+   }
+    75% {
+        opacity: 0.5;
+        top: 0px;
+   }
+    100% {
+        opacity: 1;
+   }
+}
+.projects .card {
+    margin-bottom: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: aliceblue;
+    padding: 1em;
+    margin-top: 1em;
+}
+.skills-projects {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
